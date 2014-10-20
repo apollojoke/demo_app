@@ -36,7 +36,13 @@ group :development do
     gem 'meta_request'
     gem 'pry'
     gem 'pry-rails'
+    gem 'rspec-rails'
 end
+
+#group :test do
+#  gem 'selenium-webdriver'
+#  gem 'capybara'
+#end
 
 group :production do
 	gem 'pg'
