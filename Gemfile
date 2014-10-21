@@ -37,11 +37,11 @@ group :development do
     gem 'pry'
     gem 'pry-rails'
     gem 'rspec-rails'
+    gem 'capybara'
 end
 
 #group :test do
-#  gem 'selenium-webdriver'
-#  gem 'capybara'
+ # gem 'selenium-webdriver' 
 #end
 
 group :production do
